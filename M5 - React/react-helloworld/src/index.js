@@ -24,5 +24,17 @@ reportWebVitals();
 
 
 function HelloWorld(){
-  return <div>Hello World!</div>
+  return <div><Hello/> <World/>!</div>
+}
+
+function Hello(){
+  let isBR = true;
+
+  return <span>
+    {isBR ? "Ola" : "Hello"}
+  </span>
+}
+
+function World(){
+  return <span>World</span>
 }
